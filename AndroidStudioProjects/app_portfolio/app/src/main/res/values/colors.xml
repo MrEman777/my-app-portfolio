@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Layout Color -->
+    <color name="layout">#B2DFDB</color>
+    <!-- Text Colors -->
+    <color name="text_black">#000000</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Button Colors -->
+    <color name="button_orange">#F08C35</color>
+    <color name="button_red">#FF002F</color>
+
+</resources>

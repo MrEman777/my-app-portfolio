@@ -1,0 +1,109 @@
+<!--
+Programmer: Ethan Scheffler
+Last Updated: 2015-06-10 -->
+
+<!-- [1] -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainLayout"
+        android:background="@color/layout"
+        android:baselineAligned="false">
+
+        <TextView
+            android:text= "@string/app_header"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/header"
+            android:textSize="@dimen/headerText"
+            android:textColor="@color/text_black"
+            android:layout_marginBottom="@dimen/headerMargin"
+            android:layout_marginTop="@dimen/headerMargin"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="0dp"
+            android:text="@string/spotify_button"
+            android:id="@+id/spotifyButton"
+            android:background="@color/button_orange"
+            android:layout_marginBottom="@dimen/buttonMargin"
+            android:layout_marginTop="@dimen/buttonMargin"
+            android:layout_gravity="center_horizontal"
+            android:onClick="showToast"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="0dp"
+            android:text="@string/scores_button"
+            android:id="@+id/scoresButton"
+            android:background="@color/button_orange"
+            android:layout_marginBottom="@dimen/buttonMargin"
+            android:layout_marginTop="@dimen/buttonMargin"
+            android:layout_gravity="center_horizontal"
+            android:onClick="showToast"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="0dp"
+            android:text="@string/library_button"
+            android:id="@+id/libraryButton"
+            android:background="@color/button_orange"
+            android:layout_marginBottom="@dimen/buttonMargin"
+            android:layout_marginTop="@dimen/buttonMargin"
+            android:layout_gravity="center_horizontal"
+            android:onClick="showToast"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="0dp"
+            android:text="@string/build_button"
+            android:id="@+id/buildButton"
+            android:background="@color/button_orange"
+            android:layout_marginBottom="@dimen/buttonMargin"
+            android:layout_marginTop="@dimen/buttonMargin"
+            android:layout_gravity="center_horizontal"
+            android:onClick="showToast"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="0dp"
+            android:text="@string/xyz_button"
+            android:id="@+id/xyzButton"
+            android:background="@color/button_orange"
+            android:layout_marginBottom="@dimen/buttonMargin"
+            android:layout_marginTop="@dimen/buttonMargin"
+            android:layout_gravity="center_horizontal"
+            android:onClick="showToast"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="0dp"
+            android:text="@string/capstone_button"
+            android:id="@+id/capstoneButton"
+            android:background="@color/button_red"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/text_white"
+            android:layout_marginTop="@dimen/buttonMargin"
+            android:onClick="showToast"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</ScrollView>
+
+<!-- References:
+[1] Udacity Code Reviewer: Suggested Changes upon submission
+    1. Add ScrollView in lieu of RelativeLayout
+    2. Add dimensions, strings, colors and other relevant values to resource folders
+    3. Change add onClick value to each button -->
